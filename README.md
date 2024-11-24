@@ -3,7 +3,6 @@
 Lab4SAR
 
 <details>
-  
   <summary>Click</summary>
   asdasdasdasda
   
@@ -15,3 +14,4 @@ Map.centerObject(roi, 12);
 ```
 
 </details>
+
