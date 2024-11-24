@@ -15,4 +15,4 @@ Map.centerObject(roi, 12);
 
 </details>
 
-![esto es una imagen] (https://github.com/JosephVillarrealVega/LAB4/blob/c54bd30d8e2bae43cd9c77aefddda08287e5e418/ejempl.PNG)
+[esto es una imagen](https://github.com/JosephVillarrealVega/LAB4/blob/c54bd30d8e2bae43cd9c77aefddda08287e5e418/ejempl.PNG)
