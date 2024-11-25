@@ -277,15 +277,20 @@ En las siguientes imagenes se puede observar una comparación de los sistemas Se
 
 
 
-En la siguiente imagen se pueden ver
+En la siguiente imagen se pueden ver una sección antes del incendio, se nota una escala de grises sin textura indicando un patron siendo este el bosque antes que este se quemara 
 ![s-1 antes](https://github.com/JosephVillarrealVega/LAB4/blob/e7a7e9a562da094e01d9c40425a8dd42693932f9/S-1%20antes%20del%20incendio.PNG)
 
-![s-2 despues]()
+En la siguiente imagen ser obvserva una mancha negra (zona quemada), esto despues del incendio, esto pasa ya que al no existir la cobertura de arboles que anteriormente estaban las ondas llegan hasta el suelo, un suelo probablemente plano y descubierto el cual hace que se de retrodispersion por superficie lisa
+![s-2 despues](https://github.com/JosephVillarrealVega/LAB4/blob/a9669990d53c2eafe05011170403fa31738f18cd/S-1%20despues%20del%20incendio.PNG)
 
+En esta imagen se aprecia como se veria la imagen antes de las correcciones de speckle, se puede ver una especie de "ruido" donde no se llega a entender por completo la imagen
 ![antes de speckle](https://github.com/JosephVillarrealVega/LAB4/blob/e7a7e9a562da094e01d9c40425a8dd42693932f9/S-1%20antes%20del%20incendio%20sin%20speckle.PNG)
 
+Ahora con Sentinel-2 se aprecia mucho mejor la imgan esto debido a su resolución espacial ya que es mayor a la de los sistemas radar, la visualizamos en una escala de grises para realizar una mejor comparación con las imagenes optenidas por Sentinel-1 
 ![nbr antes](https://github.com/JosephVillarrealVega/LAB4/blob/e7a7e9a562da094e01d9c40425a8dd42693932f9/NBR%20antes%20del%20incendio.PNG)
 
+En las imagenes despues del incendio igualmente utilizando los indices NBR y en escala de grises, se ve un gris más claro en la zona quemada esto por que el NBR es sensible a suelos descubiertos por incendios
 ![nbr despues](https://github.com/JosephVillarrealVega/LAB4/blob/e7a7e9a562da094e01d9c40425a8dd42693932f9/NBR%20despues%20del%20incendio.PNG)
 
+Y en esta ultima imagen podemos ver en sentinel-2 a escala de grises el área de estudio
 ![escala de grises nbr](https://github.com/JosephVillarrealVega/LAB4/blob/e7a7e9a562da094e01d9c40425a8dd42693932f9/dNBR%20a%20escala%20de%20grises.PNG)
