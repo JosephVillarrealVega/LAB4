@@ -276,6 +276,16 @@ En las siguientes imagenes se puede observar una comparación de los sistemas Se
 
 
 
-hola soy yo
 
-![esto es una imagen](https://github.com/JosephVillarrealVega/LAB4/blob/c54bd30d8e2bae43cd9c77aefddda08287e5e418/ejempl.PNG)
+En la siguiente imagen se pueden ver
+![s-1 antes](https://github.com/JosephVillarrealVega/LAB4/blob/e7a7e9a562da094e01d9c40425a8dd42693932f9/S-1%20antes%20del%20incendio.PNG)
+
+![s-2 despues]()
+
+![antes de speckle](https://github.com/JosephVillarrealVega/LAB4/blob/e7a7e9a562da094e01d9c40425a8dd42693932f9/S-1%20antes%20del%20incendio%20sin%20speckle.PNG)
+
+![nbr antes](https://github.com/JosephVillarrealVega/LAB4/blob/e7a7e9a562da094e01d9c40425a8dd42693932f9/NBR%20antes%20del%20incendio.PNG)
+
+![nbr despues](https://github.com/JosephVillarrealVega/LAB4/blob/e7a7e9a562da094e01d9c40425a8dd42693932f9/NBR%20despues%20del%20incendio.PNG)
+
+![escala de grises nbr](https://github.com/JosephVillarrealVega/LAB4/blob/e7a7e9a562da094e01d9c40425a8dd42693932f9/dNBR%20a%20escala%20de%20grises.PNG)
