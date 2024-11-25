@@ -2,17 +2,6 @@
 
 Lab4SAR
 
-## Codigo Sar inundaciones Sentinel-1
-https://code.earthengine.google.com/4955c7f5acb52872528a7d2ed96016bb
-
-## Analisis de las imagenes
-
-
-
-## Sentinel-1
-### Laboratorio 4 con sentinel-1
-## Codigo SAR de detección de incendios S-1 y S-2
-https://code.earthengine.google.com/3a2b31824e529ea88a358a70e225aa92
 
 
 
@@ -41,6 +30,22 @@ Como se menciona al inicio de este informe los sistemas SAR presentan un sistema
 Es también importante conocer que la energía que mide el sistema es condicionada por la retrodispersión la cual presenta distintos mecanismos los cuales Platonov, A. (2002) menciona que estos mecanismos se producen por dispersión por superficie es cuando la radiación incide sobre una superficie determinada la cual depende de la rugosidad o textura de dicha superficie siendo a mayor rugosidad en superficie mayor retrodispersión y más brillante se observará, esto pasa en bosques o zonas escarpadas a diferencia de océanos o fuentes de agua se verá oscuro ya que hay menor retrodispersión. También se menciona la retrodispersión por volumen que las ondas interactúan de una manera diferentes según el volumen de los objetos y así mismo es importante también conocer la constante dieléctrica de una superficie, que igualmente siguiendo al autor a mayor constante dieléctrica de una superficie mayor será su retrodispersión. 
 Por otro lado las imágenes SAR han servido de utilidad para realizar diversos estudios y aplicaciones tales como monitoreos de deforestación, inundaciones, deslizamientos, cambios en el uso del suelo etc, y es que al igual que otros sistemas en teledetección el sistema SAR es muy diverso para realizar variadas aplicaciones y con la ventaja de no verse afectado por condiciones climáticas, que sí son sensibles en otros sistemas.
 Un ejemplo claro es en Costa Rica SERVIR (s.f) menciona que  “varias universidades y organizaciones ambientales del país utilizaron el Manual SAR y otros recursos de SERVIR para elaborar mapas nacionales de bosques. pero el clima tropical es tan nublado que los satélites ópticos sólo pueden proporcionar unas pocas imágenes claras al año.” Es aquí donde para realizar estos estudios de cobertura son útiles los SAR ya que como se menciona varias veces en el informe no son sensibles a nubes en este caso. 
+
+
+## Sentinel-1
+### Laboratorio 4 con sentinel-1
+
+## Codigo Sar inundaciones Sentinel-1
+https://code.earthengine.google.com/4955c7f5acb52872528a7d2ed96016bb
+
+## Analisis de las imagenes
+
+
+
+
+
+## Codigo SAR de detección de incendios S-1 y S-2
+https://code.earthengine.google.com/3a2b31824e529ea88a358a70e225aa92
 
 
 
