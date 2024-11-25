@@ -29,7 +29,7 @@ Constante dieléctrica de una superficie : Es el nivel de retrodispersión segú
 Como se menciona al inicio de este informe los sistemas SAR presentan un sistema activo el cual envía la energía y mide la energía que vuelve a la antena del sistema. Son muy utilizadas en la observación de la tierra y principalmente en regiones que se pueden ver afectadas por factores atmosféricos como lluvias, nubosidad e incluso sin fuentes de luz solar por ejemplo.
 Es también importante conocer que la energía que mide el sistema es condicionada por la retrodispersión la cual presenta distintos mecanismos los cuales Platonov, A. (2002) menciona que estos mecanismos se producen por dispersión por superficie es cuando la radiación incide sobre una superficie determinada la cual depende de la rugosidad o textura de dicha superficie siendo a mayor rugosidad en superficie mayor retrodispersión y más brillante se observará, esto pasa en bosques o zonas escarpadas a diferencia de océanos o fuentes de agua se verá oscuro ya que hay menor retrodispersión. También se menciona la retrodispersión por volumen que las ondas interactúan de una manera diferentes según el volumen de los objetos y así mismo es importante también conocer la constante dieléctrica de una superficie, que igualmente siguiendo al autor a mayor constante dieléctrica de una superficie mayor será su retrodispersión. 
 Por otro lado las imágenes SAR han servido de utilidad para realizar diversos estudios y aplicaciones tales como monitoreos de deforestación, inundaciones, deslizamientos, cambios en el uso del suelo etc, y es que al igual que otros sistemas en teledetección el sistema SAR es muy diverso para realizar variadas aplicaciones y con la ventaja de no verse afectado por condiciones climáticas, que sí son sensibles en otros sistemas.
-Un ejemplo claro es en Costa Rica SERVIR (s.f) menciona que  “varias universidades y organizaciones ambientales del país utilizaron el Manual SAR y otros recursos de SERVIR para elaborar mapas nacionales de bosques. pero el clima tropical es tan nublado que los satélites ópticos sólo pueden proporcionar unas pocas imágenes claras al año.” Es aquí donde para realizar estos estudios de cobertura son útiles los SAR ya que como se menciona varias veces en el informe no son sensibles a nubes en este caso. 
+Un ejemplo claro es en Costa Rica Ramthun, J. (SERVIR) (s.f) menciona que  “varias universidades y organizaciones ambientales del país utilizaron el Manual SAR y otros recursos de SERVIR para elaborar mapas nacionales de bosques. pero el clima tropical es tan nublado que los satélites ópticos sólo pueden proporcionar unas pocas imágenes claras al año.” Es aquí donde para realizar estos estudios de cobertura son útiles los SAR ya que como se menciona varias veces en el informe no son sensibles a nubes en este caso. 
 
 
 ## Sentinel-1
@@ -40,7 +40,24 @@ https://code.earthengine.google.com/4955c7f5acb52872528a7d2ed96016bb
 
 ## Analisis de las imagenes
 
+En las siguientes imagenes se vera parte de la gam antes y despues de las inundaciones
 
+
+### Antes de la inundacion
+
+
+
+![s-1 antes](https://github.com/JosephVillarrealVega/LAB4/blob/84d39fab2a9ebf36a26fd809fbdf72f55df3c4e2/Antes%20de%20inundacion.PNG)
+
+
+### Despues de la inundacion
+
+
+
+![s-1 antes](https://github.com/JosephVillarrealVega/LAB4/blob/84d39fab2a9ebf36a26fd809fbdf72f55df3c4e2/Despues%20de%20la%20inundacion.PNG)
+
+
+Estas imagenes las podemos comparar y se aprecia que en la imagen despues de la inundacion se ven menos pixeles blancos y se notan unos más grises e incluso zonas un poco más negras esto por la retrodispersión que se menciono anteriormente y es que este efecto de dispersión por superficie esto ya que la superficie inundada refleja las ondas del satelite impidiendo que estas vuelvan en su mayoria dando tonos más oscuros, (Platonov, A. 2002). Por esta razón es que en zonas urbanizadas como la gam se ven super brillantes por que tienen mayor retrodispersion, pero al estar cubierta de agua por las inundaciones se da un efecto rugoso muy probablemente por el agua, lo que hace que se vea un poco más oscuro en la escala de grises  
 
 
 
@@ -350,4 +367,20 @@ var classified = dNBR.lt(thresholds).reduce('sum').toInt();
 
 
 
+##Conlusiones
 
+
+A modo de concluir podemos reconocer el alto valor que nos ofrece las imágenes de Radar de Apertura Sintética, principalmente en zonas como Costa Rica, zonas tropicales en las que es muy difícil que cubran satélites como sentinel-8/9 a pesar de que tienen una escala temporal corta pero que son sensibles a nubes por ejemplo cosa que no ocurre con sentinel-1 permitiendonos realizar estudios cada vez que lo deseemos.
+
+Sin embargo debemos reconocer que al igual que con los otros satélites, debemos conocer los procedimientos necesarios para tener imágenes de calidad que no caigan en diversos errores que pueden ser corregidos por ejemplo el speckle 
+
+
+
+### Bibligrafía
+
+
+Esri (s.f). Introducción a SAR. Recuperado de: https://pro.arcgis.com/es/pro-app/latest/help/analysis/image-analyst/introduction-to-synthetic-aperture-radar.htm
+Instituto Geográfico Nacional. (s.f) Fundamentos de teledetección radar. Recuperado de: https://www.ign.es/web/resources/docs/IGNCnig/actividades/OBS/Programa_Marco_Copernicus_User_Uptake/5_Fundamentos_de_teledeteccion_radar.pdf
+Platonov, A. (2002). Aplicaciones de imagenes SAR, en los estudios de contaminación marina y dinamica de aguas en el mediterraneo nroccidental Recuperado de: https://www.tesisenred.net/bitstream/handle/10803/6380/2_3_Satelites_con_SAR.pdf?sequence=10&isAllowed=y
+Ramthun, J. SERVIR (s.f.). Entendiendo el radar de apertura sintética. Recuperado de: https://servirglobal.net/news/making-sense-synthetic-aperture-radar-sar
+Zozaya, A. (2016). Radares de apertura sintética: procedimiento de diseño. Recuperado de: https://www.redalyc.org/pdf/707/70746634002.pdf
